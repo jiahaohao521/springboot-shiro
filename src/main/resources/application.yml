@@ -1,0 +1,8 @@
+# 如果要使用jsp 配置springmvc的前缀和后缀
+spring:
+  mvc:
+    view:
+      prefix: /
+      suffix: .jsp
+server:
+  port: 8088
